@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
 
 
 
@@ -57,6 +59,41 @@
         console.log(typeof address); // Output: string
         console.log(typeof grade); // Output: undefined
 
+        // console commands
+
+        //console.log() is used to print messages to the console
+        console.log("Hello, World!"); // Output: Hello, World!
+        console.log(10 + 5); // Output: 15
+        let name2 = "Duli"
+        console.log("My name is " + name2);
+
+        //console.error() is used to print error messages to the console
+        console.error("This is an error message"); // Output: This is an error message
+
+        //console.warn("Warning: " + warning); // Output: Warning: [warning message] 
+        console.warn("This is a warning message"); // Output: This is a warning message
+
+        let mark2 = 45;
+        if (mark2 < 50) {
+            console.warn("Student has failed the exam"); // Output: Student has failed the exam
+        }
+
+        //console.info() is used to print informational messages to the console
+        console.info("This is an informational message"); // Output: This is an informational message
+        console.debug("Debugging message");
+
+        //consle.clear() is used to clear the console
+        // console.clear(); // Clear the console
+
+        //console.table() is used to display data in a tabular format
+        let student = [
+            { name: "Isuru", age: 18 },
+            { name: "Kamal", age: 16 },
+            { name: "Kushan", age: 8 }
+        ]; // Output: A table with the provided data
+        console.table(student);
+
     </script>
 </body>
+
 </html>
