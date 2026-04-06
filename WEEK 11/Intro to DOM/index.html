@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h2>Document Object Model (DOM)</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, necessitatibus. Dicta provident, natus expedita
+        obcaecati ipsam cum quibusdam reiciendis voluptatum distinctio consequuntur assumenda aliquam a laborum sint at!
+        Odio, vel!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis perferendis ab eius praesentium excepturi
+        blanditiis at tempora, molestiae error dolorem quaerat repellat sunt, molestias dolorum explicabo quisquam
+        cumque. Minus, cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, necessitatibus. Dicta provident, natus expedita
+        obcaecati ipsam cum quibusdam reiciendis voluptatum distinctio consequuntur assumenda aliquam a laborum sint at!
+        Odio, vel!</p>
+
+
+
+    <button id="btn" onclick="changecolor()">
+        Click Me....
+    </button>
+
+    <!-- get elemets by classname -->
+    <div>
+        <h2 class="address">123 Main Street</h2>
+        <input class="myClass" type="text" placeholder="Enter your name">
+        <button id="btn2" onclick="changeText()">Greet</button>
+    </div>
+
+    <!-- query selector -->
+    <p class="item">items</p>
+
+
+    <!-- manipulating elements -->
+    <h1>
+
+        manipulating elements
+
+    </h1>
+
+    <h2 id="title">Hello</h2>
+    <button onclick="changeTittle()">Change tittle</button>
+    <br>
+
+    <!-- change attributes -->
+    <br>
+    <img src="assets/pexels-golimpio-3686307.jpg" id="img" width="100" height="100">
+    <button onclick="changeimage()">Change Image</button>
+
+    <!-- create elements -->
+    <br>
+    <button onclick="createlemets()">Create elemets</button>
+    <!-- <div id="container"></div> -->
+
+
+    <button onclick="removeElement()">Remove elemets</button>
+    <div id="container"></div>
+
+     
+
+    <!-- jquery -->
+     <br>
+     <h3>Jquery</h3>
+    <button onclick="CreateelementsbyJq()">Create elemets by JQ</button>
+    <h1 id="title2">hello world</h1>
+
+
+    <button id="btn5">
+        Change Tittle JQ
+    </button>
+
+    <br>
+    <br>
+    <button id="btn6">click event listner</button>
+
+    <br>
+    <br>
+    <button id="btn7"> Key Down</button>
+
+
+    <h4>form submit</h4>
+    <form action="" id="form">
+        <input type="text" id="name" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
